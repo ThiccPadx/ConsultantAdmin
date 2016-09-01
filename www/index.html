@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8 /">
+    <title>Tomcat selenium тестирование</title>
+
+    <script type="text/javascript" src="scripts/js/libs/1/jquery/jquery-2.1.4.js"></script>
+
+    <!-- cometD -->
+    <script type="text/javascript" src="scripts/js/libs/org/cometd.js"></script>
+    <script type="text/javascript" src="scripts/js/libs/jquery/jquery.cometd.js"></script>
+    <script type="text/javascript" src="scripts/js/libs/org/cometd/AckExtension.js"></script>
+    <script type="text/javascript" src="scripts/js/libs/org/cometd/ReloadExtension.js"></script>
+    <script type="text/javascript" src="scripts/js/libs/jquery/jquery.cometd-reload.js"></script>
+
+    <script type="text/javascript" src="scripts/js/div0/ElementSearchType.js"></script>
+    <script type="text/javascript" src="scripts/js/div0/StepAction.js"></script>
+    <script type="text/javascript" src="scripts/js/div0/error/Error.js"></script>
+    <script type="text/javascript" src="scripts/js/div0/collections/iterators/MapIterator.js"></script>
+    <script type="text/javascript" src="scripts/js/div0/collections/Map.js"></script>
+    <script type="text/javascript" src="scripts/js/libs/EventBus.js"></script>
+
+    <script type="text/javascript" src="scripts/js/div0/utils/StringUtil.js"></script>
+    <script type="text/javascript" src="scripts/js/div0/Settings.js"></script>
+    <script type="text/javascript" src="scripts/js/div0/url/UrlBuilder.js"></script>
+    <script type="text/javascript" src="scripts/js/div0/lists/BaseList.js"></script>
+
+    <script type="text/javascript" src="scripts/js/div0/Task.js"></script>
+
+    <script type="text/javascript" src="scripts/js/div0/server/requests/SendTaskRequest.js"></script>
+    <script type="text/javascript" src="scripts/js/div0/server/requests/CancelTaskRequest.js"></script>
+    <!--<script type="text/javascript" src="scripts/js/div0/server/requests/OpenUrlRequest.js"></script>-->
+
+    <script type="text/javascript" src="scripts/js/div0/server/ServerConnection.js"></script>
+    <script type="text/javascript" src="scripts/js/div0/server/Server.js"></script>
+    <script type="text/javascript" src="scripts/js/div0/server/events/ServerEvent.js"></script>
+
+    <script type="application/javascript" src="scripts/js/div0/MyApplication.js"></script>
+
+    <script type="application/javascript">
+        $(document).ready(function() {
+            new MyApplication().init();
+        });
+    </script>
+</head>
+<body id="body">
+    <input type="button" value="Start selenium task" id="startSeleniumTaskButton">
+    <input type="button" value="Cancel selenium task" id="cancelSeleniumTaskButton">
+</body>
+</html>

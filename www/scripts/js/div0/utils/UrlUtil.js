@@ -1,0 +1,5 @@
+var UrlUtil = function(){
+    return{
+
+    }
+};
